@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessories</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="icon" href="assets/imgs/logo.png" type="image/png" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1 id="category">OUR WATCHS LISTS</h1>
+        <section id="filter-btns">
+          <div class="container">
+            <button onclick="filterProd('all')" class="active">ALL</button>
+            <button onclick="filterProd('Rolex')">RINGS</button>
+            <button onclick="filterProd('Casio')">NECKLACE</button>
+            <button onclick="filterProd('Citizen')">EARRINGS</button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section id="products">
+        <div class="container" id="prod-container"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <span>&copy; 2024 Nada Obaid. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
