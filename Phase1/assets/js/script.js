@@ -1,4 +1,3 @@
-// array of product objects (watches)
 const products = [
     { 
         name: "CLASSIC LEATHER", 
@@ -58,7 +57,6 @@ const products = [
     }
 ];
 
-// Function to filter products
 function filterProd(category) {
     let filteredProducts;
     let catego = document.getElementById('category');
@@ -82,7 +80,6 @@ function filterProd(category) {
     });
 }
 
-// Display products
 function displayProd(filteredProducts) {
     const productContainer = document.getElementById('prod-container');
     productContainer.innerHTML = '';
@@ -101,5 +98,4 @@ function displayProd(filteredProducts) {
     });
 }
 
-// Initial display of all products
 displayProd(products);
